@@ -166,7 +166,7 @@ export function ContactForm() {
           onChange={handleChange}
           error={errors.message}
           disabled={isSubmitting}
-          className="min-h-[120px]"
+          className="min-h-30"
           data-testid="input-message"
         />
       </div>

@@ -224,7 +224,7 @@ export default function Home() {
                   <h3 className="text-2xl font-playfair text-white mb-4 group-hover:text-[#E5B05C] transition-colors">
                     {service.title}
                   </h3>
-                  <p className="text-zinc-400 mb-6 min-h-[80px]">
+                  <p className="text-zinc-400 mb-6 min-h-20">
                     {service.description}
                   </p>
                   <p className="text-xl font-semibold text-white">
