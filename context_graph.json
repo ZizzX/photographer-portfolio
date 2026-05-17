@@ -1,0 +1,75 @@
+{
+  "project": "photographer-videographer-portfolio",
+  "version": "1.0.0",
+  "last_updated": "2026-05-17T00:00:00Z",
+  "current_state": {
+    "active_phase": "Production Ready / Handover",
+    "last_action": "Configured CI/CD pipeline, Vercel settings, and finalized documentation",
+    "next_step": "Handover to user for push and deployment"
+  },
+  "graph": {
+    "nodes": [
+      {
+        "id": "init",
+        "label": "Инициализация",
+        "status": "completed"
+      },
+      {
+        "id": "brandbook",
+        "label": "Брендбук",
+        "status": "completed"
+      },
+      {
+        "id": "uikit",
+        "label": "UI-kit",
+        "status": "completed"
+      },
+      {
+        "id": "development",
+        "label": "Разработка",
+        "status": "completed"
+      },
+      {
+        "id": "portfolio_grid",
+        "label": "Сетка Портфолио",
+        "status": "completed"
+      },
+      {
+        "id": "landing_page",
+        "label": "Сборка Главной",
+        "status": "completed"
+      },
+      {
+        "id": "seo_and_tests",
+        "label": "SEO/Тесты",
+        "status": "completed"
+      }
+    ],
+    "edges": [
+      {
+        "source": "init",
+        "target": "brandbook"
+      },
+      {
+        "source": "brandbook",
+        "target": "uikit"
+      },
+      {
+        "source": "uikit",
+        "target": "development"
+      },
+      {
+        "source": "development",
+        "target": "portfolio_grid"
+      },
+      {
+        "source": "portfolio_grid",
+        "target": "landing_page"
+      },
+      {
+        "source": "landing_page",
+        "target": "seo_and_tests"
+      }
+    ]
+  }
+}
