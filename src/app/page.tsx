@@ -71,7 +71,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Product Showcase",
     type: "video",
     category: "commercial",
-    src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+    src: "https://www.pexels.com/download/video/17083199/",
   },
   {
     id: "3",
@@ -92,7 +92,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Cinematic Backstage",
     type: "video",
     category: "backstage",
-    src: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+    src: "https://www.pexels.com/download/video/6274277/",
   },
   {
     id: "6",
@@ -158,7 +158,7 @@ export default function Home() {
             {/* Используем div поверх видео, чтобы блокировать клики и скрывать контроллы плеера (хотя они и так скрыты, но для гарантии фона) */}
             <div className="absolute inset-0 bg-black/60 z-10"></div>
             <VideoPlayer
-              src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+              src="https://www.pexels.com/download/video/31259707/"
               autoplay
               loop
               muted
